@@ -1,0 +1,115 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body>* {
+  margin: 1em auto;
+  text-align: center;
+  padding: 0;
+}
+
+
+body {
+  background-color: lightskyblue;
+  height: 100%;
+  width: 100%;
+}
+
+#game-board
+{
+	width: 40vw;
+	height: 40vw;
+	margin: 0 auto;
+  background-color: lightgreen;
+  color: #fff;
+  border: 6px solid #2c3e50;
+  border-radius: 10px;
+	
+	display: grid;
+	grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+#game-board * {
+  border: 6px solid #2c3e50;
+  border-radius: 0px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+@media screen and (max-width: 1680px) {
+  #game-board
+  {
+    width: 50vw;
+    height: 50vw;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  #game-board
+  {
+    width: 55vw;
+    height: 55vw;
+  }
+}
+}
+
+@media screen and (max-width: 980px) {
+  #game-board
+  {
+    width: 55vw;
+    height: 55vw;
+  }
+}
+
+@media screen and (max-width: 736px) {
+  #game-board
+  {
+    width: 60vw;
+    height: 60vw;
+  }
+}
+
+@media screen and (max-width: 480px) {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
