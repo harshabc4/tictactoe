@@ -1,7 +1,7 @@
 
 
 #Tic Tac Toe: <a target="_blank" href="" >Try it!</a> 
-Small project as a weekend exercise.
+Small project as a weekend exercise.  First foray into OOP
 
 
 <img src=>
